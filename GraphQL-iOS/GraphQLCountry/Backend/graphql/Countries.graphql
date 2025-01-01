@@ -1,0 +1,25 @@
+query GetAllCountries {
+      countries {
+            name,
+            code,
+            capital,
+            currencies,
+            continent {
+              name
+            },
+            native,
+            states {
+                name
+              code
+            },
+            languages {
+              name
+            },
+            awsRegion,
+            subdivisions {
+              name
+            },
+            phone,
+            emoji
+      }
+}
